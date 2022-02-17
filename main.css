@@ -1,0 +1,92 @@
+body {
+    background: url(../img/car.jpg);
+    background-size: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bolder;
+    
+}
+
+h1 {
+    color: darkslategrey;
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    letter-spacing: 2px;
+
+}
+
+/*registration,authorization*/
+
+.registration,.authorization {
+    width: 20%;
+    height: 20%;
+    background-color: rgb(173, 168, 162);
+    border-radius: 10%;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    line-height: 2;
+    float: left;
+
+}
+
+/*search*/
+
+ .search {
+  
+        width: 30%;
+        height: 80%;
+        background-color: rgb(173, 168, 162);
+        border-radius: 10%;
+        text-align: center;
+        margin: 8px;
+        padding: 2px;
+        line-height: 2;
+        float: right;
+        background-position: right;
+        
+ }
+
+ .search_max {
+
+    width: 20%;
+    height: 80%;
+    background-color: rgb(173, 168, 162);
+    border-radius: 10%;
+    text-align: left;
+    padding: 10px;
+    margin: 20px;
+    line-height: 2;
+    float: left;
+    background-position: top;
+ }
+
+
+ .toplivo,.korobka,.sostojanie,.comfort {
+     float: right;
+     
+ }
+  
+ /*button*/
+
+ .button {
+    background-color: #292a4d; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 50%;
+    
+}
+
+.button:hover {
+    background-color: #424942; 
+    color: white;
+    }
+    
+    
+
+ 
+

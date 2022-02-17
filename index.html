@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+</head>
+<body> 
+    <h1>ПРОДАЖ ПРЕМИУМ АВТО</h1>
+    
+    <div class="registration">
+        <form>
+        <fieldset>
+            <legend>Регистрация</legend>
+            <p>
+                <label>
+                    E-mail:
+                    <input type="email" name="email" required="required" /></label>
+            </p>
+            <p>
+                <label>
+                    Пароль:
+                    <input type="password" name="pwd" required="required" /></label>
+            </p>
+            <p>
+                <label>
+                    Подтверждение пароля:
+                    <input type="password" name="pwd" required="required" /></label>
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Отправить" />
+        </p>
+
+    </form>
+     </div>
+
+    
+        <div class="authorization">
+            <form>
+            <fieldset>
+                <legend>Авторизация</legend>
+                <p>
+                    <label>
+                        E-mail:
+                        <input type="email" name="email" required="required" /></label>
+                </p>
+                <p>
+                    <label>
+                        Пароль:
+                        <input type="password" name="pwd" required="required" /></label>
+                </p>
+                <input type="checkbox" checked="checked" name="checbox1" />
+        Запомнить пароль
+        <br />
+            </fieldset>
+            <p>
+                <input type="submit" value="Отправить" />
+            </p>
+        </form>
+</div>
+
+ <form>
+     <div class="search">
+        <p>Марка автомобиля:</p>
+        <select name="Марка авто">
+            <option value="value1">Audi</option>
+            <option value="value2">Bentley</option>
+            <option value="value4">Jaguar</option>
+            <option value="value3">Lexus</option>
+            <option value="value4">Mercedes-Benz</option>
+            <option value="value4">Rolls-Royce</option>
+        </select>
+    
+         <p>Тип кузова:</p>
+        <select name="Тип кузова">
+            <option value="value1">Внедорожник/Кроссовер</option>
+            <option value="value2">Кабриолет</option>
+            <option value="value3">Купе</option>
+            <option value="value4">Хетчбэк</option>
+            <option value="value5">Седан</option>
+        </select>
+        
+        <p>Страна производитель:</p>
+        <select name="Страна производитель">
+            <option value="value1">Англия</option>
+            <option value="value2">Германия</option>
+            <option value="value4">Италия</option>
+            <option value="value3">Япония</option>
+        </select>
+
+        
+        <form>
+            <p>Цена,&#36:</p>
+            <p>От:<form><input type="number" min="40000" max="300000" step=1000>
+            </form></p>
+            <form>
+            <p>До:<input type="number" min="40000" max="300000" step=1000>
+            </form></p>
+        </form>
+             
+        <form>
+            <p>Год выпуска:</p>
+            <p>От:<form>
+                <input type="number" min="2010" max="2021" step=1>
+            </form>
+        </p>
+            <form>
+            <p>До:<input type="number" min="2010" max="2021" step=1>
+            </form>
+        </p>
+            </form>
+            </div>
+
+             <div class="search_max">
+               <div class="korobka">
+               <form>
+                <p>Тип коробки передач:</p>
+                 <input type="checkbox" name="option1" value="1">Автомат<Br>
+                 <input type="checkbox" name="option2" value="2">Вариатор<Br>
+                 <input type="checkbox" name="option3" value="3">Типтроник<Br>
+             </form>
+            </div>
+
+             <div class="toplivo">
+                <form>
+                    <p>Тип топлива:</p>
+                     <input type="checkbox" name="option1" value="1">Бензин<Br>
+                     <input type="checkbox" name="option2" value="2">Дизель<Br>
+                     <input type="checkbox" name="option3" value="3">Электро<Br>
+                     <input type="checkbox" name="option4" value="4">Газ/Бензин<Br>
+                 </form>
+                </div>
+
+                <div class="sostojanie">
+                 <form>
+               <p>Состояние:</p>
+                <input type="checkbox" name="option1" value="1">Новая<Br>
+                <input type="checkbox" name="option2" value="2">Б/У<Br>
+                <input type="checkbox" name="option3" value="3">В кредите<Br>
+                <input type="checkbox" name="option4" value="4">Не растаможенная<Br> 
+             </form>
+             </div>
+
+            <form>
+                <p>Выберите цвет:</p>
+                    <select name="Colors">
+                        <option value="black">Черный</option>     
+                        <option value="white">Белый</option>     
+                        <option value="grey">Серый</option>
+                        <option value="biege">Бежевый</option>             
+                        <option value="blue">Синий</option>
+                        <option value="purple">Фиолетовый</option>                   
+                        <option value="red">Красный</option>    
+                        <option value="yellow">Желтый</option>
+                        <option value="green">Зеленый</option>
+                    </select>
+               </form>
+               
+               <div class="comfort">
+               <form>
+                <p>Комфорт:</p>
+                 <input type="checkbox" name="option1" value="1">Кожаный салон<Br>
+                 <input type="checkbox" name="option2" value="2">Люк<Br>
+                 <input type="checkbox" name="option3" value="3">Подогрев сидений<Br>
+                 <input type="checkbox" name="option4" value="4">Акустическая система<Br>
+                <input type="checkbox" name="option4" value="4">Мультимедия<Br>
+                <input type="checkbox" name="option4" value="4">Круиз-контроль<Br>
+                <input type="checkbox" name="option4" value="4">Подогрев руля<Br>
+             </form>
+            </div> 
+            </select>
+             </div>
+     
+             <div class="button">
+             "ПОИСК"
+             </div>
+ </form>
+</body>
+</html>
